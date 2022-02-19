@@ -1,0 +1,17 @@
+{
+    "name": "test/web",
+    "autoload": {
+        "psr-4": {
+            "shamma\\": "src/shamma"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrey Kurbatov",
+            "email": "kurbatov_andr@hotmail.com"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.19"
+    }
+}
