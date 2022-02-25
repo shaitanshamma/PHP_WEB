@@ -8,8 +8,8 @@ class Comment
     public function __construct(
         private int    $id,
         private string $text,
-        private int    $user_id,
-        private int    $post_id
+        private int    $userId,
+        private int    $postId
     )
     {
     }
@@ -18,8 +18,8 @@ class Comment
     {
         return 'id = ' . $this->id . ' ' .
             'text = ' . $this->text . ' ' .
-            'user_id = ' . $this->user_id . ' ' .
-            'post_id = ' . $this->post_id;
+            'user_id = ' . $this->userId . ' ' .
+            'post_id = ' . $this->postId;
     }
 
 
